@@ -1,0 +1,32 @@
+@import 'font.scss';
+@import 'reset.scss';
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darken($primary-color, 10);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+#app.v-application {
+  a {
+    color: #333;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.v-btn {
+  letter-spacing: normal !important;
+}
