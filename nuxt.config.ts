@@ -50,15 +50,17 @@ export default {
   ],
 
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate:
+      'تعمیر تلویزیون | تعمیر سینمای خانگی | تعمیر تلویزیون در تهران',
+    title: 'تعمیر تلویزیون | تعمیر سینمای خانگی | تعمیر تلویزیون در تهران',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content:
+          'تعمیر تلویزیون در شهر تهران با بهترین قیمت در محل ما تضمین مناسب ترین قیمت را به مشتریان عزیز میدهیم با بهترین متخصصان در زمینه تعمیرات لوازم خانگی'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
