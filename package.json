@@ -27,7 +27,7 @@
     "animate.css": "^3.7.2",
     "file-loader": "^4.0.0",
     "jwt-decode": "^2.2.0",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "nuxt": "^2.10.2",
     "perfect-scrollbar": "^1.4.0",
     "sass": "^1.23.7",
